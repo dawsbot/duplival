@@ -9,7 +9,7 @@ Development from people like you makes projects great. In order to make cool thi
 <br>
 **PR's should be in response to an issue**. Please open an issue before posting your PR
 
-1. If the patch/pull requrest is small, hack it out and see if the community likes it.
+1. If the patch/pull request is small, hack it out and see if the community likes it.
 2. On the other hand, if it is large, ask me about it first. We don't want to see time wasted on things that won't get merged or are already underway
 
 <br>
