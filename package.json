@@ -36,7 +36,8 @@
     "dawson"
   ],
   "dependencies": {
-    "deep-blue-string": "^0.2.3"
+    "deep-blue-string": "^0.2.3",
+    "regs": "0.0.0"
   },
   "devDependencies": {
     "ava": "^0.11.0",
