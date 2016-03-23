@@ -1,5 +1,7 @@
 'use strict';
 const dbs = require('deep-blue-string');
+const regs = require('regs');
+
 module.exports = function (obj) {
   const argLength = arguments.length;
 
@@ -11,10 +13,8 @@ module.exports = function (obj) {
     throw new Error(`Expected 1 arguments, got ${argLength}`);
   }
 
-  const reg = new RegExp(/<%=\s*(.*)\s+=>/g);
-
   const strObj = JSON.stringify(obj);
-  const regResults = reg.exec(strObj);
+  const regResults = regs.yeoman('g').exec(strObj);
 
   return dbs(obj, String.prototype.replace, [regResults[0], obj[regResults[1]]]);
 };

@@ -11,6 +11,6 @@ test('valid args', t => {
 });
 
 test('string replacement', t => {
-  t.same(fn({key1: 'value1', key2: '<%= key1 =>'}), {key1: 'value1', key2: 'value1'});
-//  t.same(fn({key1: 'value1', key2: ['<%= key1 =>', '<%= key3 =>'], key3: 'value3'}), {key1: 'value1', key2: ['value1', 'value3'], key3: 'value3'});
+  t.same(fn({key1: 'value1', key2: '<% key1 %>'}), {key1: 'value1', key2: 'value1'});
+  t.same(fn({key1: 'value1', key2: '<%= key1 %>'}), {key1: 'value1', key2: 'value1'});
 });
