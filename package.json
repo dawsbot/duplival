@@ -27,6 +27,8 @@
     "index.js"
   ],
   "keywords": [
+    "replace",
+    "template",
     "lean",
     "minimal",
     "documented",
@@ -36,18 +38,15 @@
     "dawson"
   ],
   "dependencies": {
-    "deep-blue-string": "^0.2.3",
-    "regs": "0.0.0"
+    "ejs": "^2.4.2"
   },
   "devDependencies": {
-    "ava": "^0.11.0",
-    "xo": "^0.12.1",
-    "eslint-config-xo-space": "^0.8.0"
+    "ava": "^0.15.2",
+    "file-bytes": "^2.0.3",
+    "piglatin": "^0.1.2",
+    "xo": "^0.16.0"
   },
   "xo": {
-    "space": true,
-    "eslintConfig": {
-      "extends": "xo-space"
-    }
+    "space": true
   }
 }
