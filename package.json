@@ -1,6 +1,6 @@
 {
   "name": "duplival",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Alias JSON values to reduce code duplication",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/duplival#readme",
